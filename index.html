@@ -8,16 +8,25 @@
     <title>Aquamarine</title>
 </head>
 <body>
-    <header id="Cabeca">
-        <nav>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </nav>
-    </header>
+    <div id="menu-bar">
+        <div id="menu" onclick="onClickMenu()">
+            <div id="bar1" class="bar"></div>
+            <div id="bar2" class="bar"></div>
+            <div id="bar3" class="bar"></div>
 
+        </div>
+        <ul class="nav" id="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#objetivo">Sobre</a></li>
+            <li><a href="#">Doações</a></li>
+ 
+
+        </ul>
+
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
+    <script src="script.js"></script>
+    </aside>
 <div id="interface">
         <!--Conteudo primario-->
     <section id="corpo">
@@ -26,17 +35,31 @@
                  <h1>Aquamarine</h1>
                  <h2>Vida Marinha</h2>
         </div>
-        <div id="sobre-prj">
-            <h3>Sobre nosso projeto</h3>
-            <p>  
-             Somos uma ong sem fins lucrativos, que visa ajudar a vida maritima, nosso projeto não so ajuda a conservar o ambiente maritimo, mas, também a conscientizar as pessoas sobre a situação dos oceanos 
-             e das vidas que nele habitam.
-            </p>
-        </div>
-        
+
         <article id="conteudo">
             <div>
-                <h2></h2>
+                <h2>Objetivo 14: Proteger a Vida Marinha</h2>
+                <ul>
+                    <li>Até 2025, prevenir e reduzir significativamente a poluição marítima de todos os tipos, especialmente a que advém de atividades terrestres, incluindo detritos marinhos e a poluição por nutrientes.</li>
+                    <li>Minimizar e enfrentar os impactos da acidificação dos oceanos, inclusive através do reforço da cooperação científica em todos os níveis.</li>
+                    <li>Até 2020, efetivamente regular a extração de recursos, acabar com a sobrepesca e a pesca ilegal, não reportada e não regulamentada e as práticas de pesca destrutivas, e implementar planos de gestão com base científica, para restaurar populações de peixes no menor período de tempo possível, pelo menos para níveis que possam produzir rendimento máximo sustentável, como determinado pelas suas características biológicas.</li>
+                    <li>Até 2020, conservar pelo menos 10% das zonas costeiras e marinhas, de acordo com a legislação nacional e internacional, e com base na melhor informação científica disponível.</li>
+                    <li>Até 2020, proibir certas formas de subsídios à pesca, que contribuem para a sobrecapacidade e a sobrepesca, e eliminar os subsídios que contribuam para a pesca ilegal, não reportada e não regulamentada, e abster-se de introduzir novos subsídios desse tipo, reconhecendo que o tratamento especial e diferenciado adequado e eficaz para os países em desenvolvimento e os países menos desenvolvidos deve ser parte integrante da negociação sobre subsídios à pesca da Organização Mundial do Comércio.</li>
+                    <li>Até 2030, aumentar os benefícios económicos para os pequenos Estados insulares em desenvolvimento e os países menos desenvolvidos, a partir do uso sustentável dos recursos marinhos, inclusive através de uma gestão sustentável da pesca, aquicultura e turismo.</li>
+                    <li>Aumentar o conhecimento científico, desenvolver capacidades de investigação e transferir tecnologia marinha, tendo em conta os critérios e orientações sobre a Transferência de Tecnologia Marinha da Comissão Oceanográfica Intergovernamental, a fim de melhorar a saúde dos oceanos e aumentar a contribuição da biodiversidade marinha para o desenvolvimento dos países em desenvolvimento, em particular os pequenos Estados insulares em desenvolvimento e os países menos desenvolvidos.</li>
+                    <li>Proporcionar o acesso dos pescadores artesanais de pequena escala aos recursos marinhos e mercados.</li>
+                    <li>Assegurar a conservação e o uso sustentável dos oceanos e seus recursos pela implementação do direito internacional, como refletido na UNCLOS [Convenção das Nações Unidas sobre o Direito do Mar], que determina o enquadramento legal para a conservação e utilização sustentável dos oceanos e dos seus recursos, conforme registrado no parágrafo 158 do “Futuro Que Queremos”.</li>
+
+                </ul>
+                <div id="sobre-prj">
+                    <div id="objetivo">
+                    <h3 >Sobre nosso projeto</h3>
+                    <p>  
+                     Somos uma ong sem fins lucrativos, que visa ajudar a vida maritima, nosso projeto não so ajuda a conservar o ambiente maritimo, mas, também a conscientizar as pessoas sobre a situação dos oceanos 
+                     e das vidas que nele habitam.
+                    </p>
+                </div>
+                </div>
             </div>
         </article>
                     
@@ -46,10 +69,13 @@
             <!--conteúdo lateral (Posivelmente os videos)-->
         <aside id="lateral"> 
             <div id="navegacao">
-
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repellendus eum harum obcaecati saepe ipsam cupiditate tempore! Voluptate, perspiciatis laudantium fugit quasi commodi dolorem, quo quia perferendis temporibus incidunt maiores provident?</p>
             </div>
             
-            
+            <div id="videos">
+                <h2>Videos Sobre a ods</h2>
+                <iframe width="360" height="215" src="https://www.youtube.com/embed/bIDLxPu_8D4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             
         </aside>
             
@@ -57,11 +83,12 @@
             
             <footer id="rodape">
             
-                <p><strong> &copy;Copyright 2022 - by Aquamarine Siga</strong></p>
+                <p><strong> &copy;Copyright 2022 - by Aquamarine </strong></p>
             
             
             </footer>
 </div>
-            
+        
     </body>
+
 </html>
