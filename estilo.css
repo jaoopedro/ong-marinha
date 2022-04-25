@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Indie+Flower&family=Pacifico&display=swap');
+
+/*Cor do site*/
+body{
+	background-color: #dddd;
+    font-family: Arial, Helvetica, serif;
+	
+}
+
+
+div#interface{
+	width: 1000px ;
+	position: relative;
+	background-color: #ffff;
+	margin: 10px auto 0px auto;
+	box-shadow: 0px 0px 10px black;
+	padding: 10px;
+    border-radius: 5px;
+    
+    
+}
+
+
+
+/*Editando a semantica */
+
+
+section#corpo{
+	display: block; /*O documento so pode flutuar se for definido como um bloco*/
+	width: 600px; 
+	float: left; /*Foi definido para flutuar para o lado esquerto*/
+	border-right:1px solid;
+	padding-right: 15px;
+	color: black;
+	
+}
+section#corpo {
+	font-family: 'Palette Mosaic', cursive; /*Fonte para os titulos*/
+	font-family: 'Quicksand', sans-serif;
+}
+section#corpo h2{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Indie Flower', cursive;
+    margin-top: -20px;
+    
+}
+section#corpo h1{
+    text-shadow: 0px 8px 5px black;
+    color: rgba(85, 83, 83, 0.849);
+}
+
+
+aside#lateral{
+	font-family: 'Palette Mosaic', cursive; /*Fonte para os titulos*/
+	font-family: 'Quicksand', sans-serif;
+	display: block; 
+	width: 280px;
+	float: right; /*Foi definido para flutuar para o lado direito*/
+	color: rgb(255, 255, 255);
+}
+
+
+section#corpo a{
+	color: rgb(0, 0, 0);
+}
+
+#sobre-prj{
+    background: #61c9e3;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+    
+}
+#sobre-prj h3{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Indie Flower', cursive;
+}
+
+#sobre-prj p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/*CRIAÇÃO DO RODAPE*/
+
+footer#rodape{
+	clear: both; /*Para poder limpar as configurações*/
+	border-top: 1px solid ;
+	color: rgb(0, 0, 0);
+}
+
+footer#rodape p{
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+}
+
+footer#rodape a{
+	color: rgb(0, 0, 0);
+  font-family: 'Indie Flower', cursive;
+}
+
+
+
+/*FORMATAÇÃO DO BOTAO TOPO*/
+#link-topo{
+	text-decoration: none;
+	color: gray;
+	padding: 6px;
+	background-color: black;
+	position: fixed;
+	right: 10px;
+	bottom: 10px;
+	box-shadow: 3px 3px 10px black;
+}
