@@ -10,8 +10,8 @@ body{
 img#golfinho{
 	display: flex;
 	position: absolute;
-	top: 85px;
-	padding-left: 450px;
+	top: 75px;
+	padding-left: 295px;
 }
 
 div#interface{
@@ -28,7 +28,7 @@ div#interface{
 
 
 
-/*Editando a semantica */
+/*Editando a section conteudo primario */
 
 
 section#corpo{
@@ -50,13 +50,34 @@ section#corpo h2{
     margin-top: -15px;
     
 }
-section#corpo h1{
+
+section#corpo a{
+	color: rgb(0, 0, 0);
+}
+
+/*Edição da area de introdução*/
+
+div#introducao h1{
+	font-family: 'Anton', sans-serif;
+    font-family: 'Indie Flower', cursive;
 	margin-top: 35px;
     text-shadow: 0px 15px 4px rgba(29, 29, 29, 0.623);
     color: rgba(85, 83, 83, 0.849);
 }
 
+div#introducao h2{
+	display: flex;
+	position: relative;
+	left: 80px;
+	top: -10px;
+	text-shadow: 0px 15px 4px rgba(29, 29, 29, 0.623);
+	color: rgba(85, 83, 83, 0.849);
+}
 
+
+
+
+/*Edição do Aside lateral*/
 aside#lateral{
 	font-family: 'Palette Mosaic', cursive; /*Fonte para os titulos*/
 	font-family: 'Quicksand', sans-serif;
@@ -67,14 +88,49 @@ aside#lateral{
 
 }
 
+
+div#navegacao{
+	background-color: #61c9e3;
+	padding: 25px;
+	margin-right: -5px;
+	margin-left: 0px;
+	border-radius: 10px;
+	margin-bottom: 25px;
+	box-shadow: 0px 0px 10px black;
+}
+
+/* Edição da area de videos*/
+div#videos img{
+	display: flex;
+	position: absolute;
+	right: 60px;
+	width: 58px;
+}
+
+div#videos{
+	background-color: #61c9e3;
+	border-radius: 10%;
+	box-shadow: 0px 0px 10px black;
+	margin-left: 0px;
+	margin-right: -5px;
+}
+
+div#videos iframe{
+	position: relative;
+	left: 30px;
+	border-radius: 15px;
+}
+
+div#videos h2{
+	position: relative;
+	left: 20px;
+}
+
 aside#lateral h2{
 	font-family: 'Indie Flower', cursive;
 }
 
-
-section#corpo a{
-	color: rgb(0, 0, 0);
-}
+/*Edição do conteudo(Artigo)*/
 
 article#conteudo{
 	margin-top: 25px;
@@ -101,15 +157,9 @@ article#conteudo li{
 #sobre-prj p{
     font-family: 'Courier New', Courier, monospace;
 }
-div#navegacao{
-	background-color: #61c9e3;
-	padding: 25px;
-	margin-right: -5px;
-	margin-left: 0px;
-	border-radius: 10px;
-	margin-bottom: 25px;
-	box-shadow: 0px 0px 10px black;
-}
+
+
+
 /*CRIAÇÃO DO RODAPE*/
 
 footer#rodape{
