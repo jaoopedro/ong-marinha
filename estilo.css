@@ -7,7 +7,12 @@ body{
     font-family: Arial, Helvetica, serif;
 	
 }
-
+img#golfinho{
+	display: flex;
+	position: absolute;
+	top: 85px;
+	padding-left: 450px;
+}
 
 div#interface{
 	width: 1000px ;
