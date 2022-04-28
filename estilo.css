@@ -11,6 +11,7 @@ img#golfinho{
 	display: flex;
 	position: absolute;
 	top: 75px;
+	cursor: pointer;
 	padding-left: 295px;
 }
 
@@ -90,7 +91,7 @@ aside#lateral{
 
 
 div#navegacao{
-	background-color: #61c9e3;
+	background-color: #a9dfec;
 	padding: 25px;
 	margin-right: -5px;
 	margin-left: 0px;
@@ -99,6 +100,44 @@ div#navegacao{
 	box-shadow: 0px 0px 10px black;
 }
 
+div#navegacao h1{
+	position: relative;
+	font-family: 'Anton', sans-serif;
+    font-family: 'Indie Flower', cursive;
+	top: -40px;
+	padding-left: 20px;
+}
+
+div#navegacao a{
+	color: black;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: text-decoration 1s;
+}
+
+div#navegacao ul li{
+	position: relative;
+	list-style: none;
+	top: -45px;
+	padding-top: 20px;
+
+}
+
+/*Animação*/
+div#navegacao a::after{
+    content:" ";
+    width: 0px;
+    height: 4px;
+    background-image: linear-gradient(45deg, rgba(43, 89, 241, 0.911), rgb(84, 173, 245) );
+    position: absolute;
+    top: 35px;
+    left: 0;
+    transition: width 1s;
+}
+
+div#navegacao a:hover::after{
+    width: 30px;
+}
 /* Edição da area de videos*/
 div#videos img{
 	display: flex;
