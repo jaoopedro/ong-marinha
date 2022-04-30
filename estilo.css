@@ -109,7 +109,7 @@ div#navegacao h1{
 }
 
 div#navegacao a{
-	text-shadow: 0px 5px 4px rgba(0, 0, 0, 0.867);
+	text-shadow: 0px 12px 10px rgb(13, 154, 189);
 	font-size: 20px;
 	font-family: 'Courier New', Courier, monospace;
 	color: black;
@@ -145,7 +145,7 @@ div#navegacao a:hover::after{
 div#videos img{
 	display: flex;
 	position: absolute;
-	right: 60px;
+	right: 50px;
 	width: 58px;
 }
 
@@ -165,7 +165,7 @@ div#videos iframe{
 
 div#videos h2{
 	position: relative;
-	left: 20px;
+	left: 50px;
 }
 
 aside#lateral h2{
@@ -286,7 +286,7 @@ footer#rodape a{
 	width: 0;
 	height: 0;
 	margin: 30px 0 20px 20px;
-	background: radial-gradient(circle,#2c5ee7,#0de0ac);
+	background: radial-gradient(circle,#2c5ee7cc,#0de0ab4d);
 	border-radius: 50%;
 	transition: 0.3s ease;
 }
