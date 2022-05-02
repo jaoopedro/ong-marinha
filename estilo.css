@@ -7,6 +7,10 @@ body{
     font-family: Arial, Helvetica, serif;
 	
 }
+html{
+	scroll-behavior: smooth;
+}
+
 img#golfinho{
 	display: flex;
 	position: absolute;
